@@ -17,7 +17,8 @@
 		--text-col: #666;
 		--button-not-hov: #323037;
 		--button-hov: #3e3c45;
-		--bg-img: url("../../assets/images/bg_white.png")
+		--bg-img: url("../../assets/images/bg_white.png");
+		--link-hov: #aaaaaa;
 	}
 
 	[data-theme="dark"] {
@@ -2040,7 +2041,7 @@
 				margin-left: 5%;
 				text-align: left;
 			}
-		
+
 		@media screen and (max-width: 1280px) {
 
 			.feature-grid .feature {
@@ -2380,7 +2381,7 @@
 			visibility: visible;
 			border-radius: 10%;
 		}
-		
+
 		.image.captioned {
 			border-radius: 0;
 			margin-bottom: 4em;
@@ -3212,3 +3213,7 @@
   .slider.round:before {
 	border-radius: 50%;
   }
+
+.link-txt:hover{
+	color: var(--link-hov);
+}
