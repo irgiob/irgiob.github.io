@@ -3139,26 +3139,28 @@
 	top: -50%;
 }
 
-/* skills bars */
+/* skills */
 
-* {box-sizing:border-box}
-
-.skills_bar {
-  width: 100%; 
-  background-color: var(--subtitle-col); 
-  margin: 1em auto;
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; 
+  padding: 0;
+  text-align: center;
 }
 
-.skills {
-  padding-top: .05em;
-  padding-bottom: .5em;
-  color: white;
+.tags li {
+  display: inline-block;
+  background: #eee;
+  border-radius: 3px;
+  color: #323037;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
 }
-
-.html {width: 70%; background-color: var(--button-not-hov);} 
-.python {width: 90%; background-color: var(--button-not-hov);} 
-.c {width: 75%; background-color: var(--button-not-hov);}
-.microsoft {width: 90%; background-color: var(--button-not-hov);}
+/* theme switch */
 
 .theme-switch-wrapper {
 	display: flex;
